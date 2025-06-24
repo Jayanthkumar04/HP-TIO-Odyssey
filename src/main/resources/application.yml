@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    azure:
+      active-directory:
+          enabled: true
+          profile:
+            tenant-id: "need to get it from admin team"
+          credential:
+            client-id: "need to get it from admin team"
+            client-secret: "need to get it from admin team"
+server:
+  port: 9191
+  forward-headers-strategy: native
