@@ -213,3 +213,15 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2025-06-24T18:50:48.426+05:30  INFO 52336 --- [AgenFlowmind] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2025-06-24T18:50:48.432+05:30  INFO 52336 --- [AgenFlowmind] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
 2025-06-24T18:50:52.871+05:30  INFO 52336 --- [AgenFlowmind] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 3222 ms
+2025-06-24T21:09:01.769+05:30  WARN 52336 --- [AgenFlowmind] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m24s400ms652µs600ns).
+2025-06-24T21:12:18.995+05:30  WARN 52336 --- [AgenFlowmind] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s187ms11µs).
+2025-06-24T22:08:39.844+05:30  INFO 52336 --- [AgenFlowmind] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-06-24T22:08:39.975+05:30  INFO 52336 --- [AgenFlowmind] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-24T22:08:40.147+05:30  INFO 52336 --- [AgenFlowmind] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-24T22:08:40.908+05:30  INFO 52336 --- [AgenFlowmind] [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2025-06-24T22:08:40.908+05:30  INFO 52336 --- [AgenFlowmind] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-06-24T22:08:40.908+05:30  INFO 52336 --- [AgenFlowmind] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-06-24T22:08:40.910+05:30  INFO 52336 --- [AgenFlowmind] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-06-24T22:08:40.920+05:30  INFO 52336 --- [AgenFlowmind] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-24T22:08:40.974+05:30  INFO 52336 --- [AgenFlowmind] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-24T22:08:40.994+05:30  INFO 52336 --- [AgenFlowmind] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
