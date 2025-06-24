@@ -1,0 +1,88 @@
+{
+  "pipeline": {
+    "pipelineId": 2213,
+    "executionId": "72094e1c-b7c1-4716-9277-6fb8d1d10fea",
+    "name": "Test Workflow",
+    "user": "vaibhav.kumbhar@ascendion.com",
+    "description": "Test Agent",
+    "userInputs": {},
+    "managerLlm": {
+      "model": "gpt-4o",
+      "aiEngine": "AzureOpenAI",
+      "temperature": 0.3,
+      "maxToken": 4000,
+      "topP": 0.95,
+      "llmDeploymentName": "gpt-4o",
+      "apiKey": "####################################################################################",
+      "azureEndpoint": "https://avaplus-cognitive-account-int.openai.azure.com/",
+      "llmApiVersion": "2024-09-01-preview",
+      "bedrockModelId": null,
+      "region": null,
+      "accessKey": null,
+      "secretKey": null,
+      "vertexAIEndpoint": null,
+      "gcpProjectId": null,
+      "gcpLocation": null
+    },
+    "masterEmbedding": null,
+    "pipeLineAgents": [
+      {
+        "serial": 1,
+        "agent": {
+          "id": 3059,
+          "name": "TestAgent",
+          "role": "Software Developer",
+          "goal": "Just send the JSON output",
+          "backstory": "Just send the JSON output",
+          "verbose": true,
+          "allowDelegation": true,
+          "maxIter": 3,
+          "maxRpm": 0,
+          "maxExecutionTime": 60,
+          "task": {
+            "description": "Just send the below JSON output - \n\n[\n  \"url\": \"https://www.google.com\",\n  {\"status\": 200, \"message\": \"Test case successfully created.\"},\n  {\"status\": 200, \"message\": \"Test case successfully created.\"},\n  {\"status\": 200, \"message\": \"Test case successfully created.\"},\n  {\"status\": 200, \"message\": \"Test case successfully created.\"},\n  {\"status\": 200, \"message\": \"Test case successfully created.\"}\n]",
+            "expectedOutput": "Just send the below JSON output - \n\n[\n  \"url\": \"https://www.google.com\",\n  {\"status\": 200, \"message\": \"Test case successfully created.\"},\n  {\"status\": 200, \"message\": \"Test case successfully created.\"},\n  {\"status\": 200, \"message\": \"Test case successfully created.\"},\n  {\"status\": 200, \"message\": \"Test case successfully created.\"},\n  {\"status\": 200, \"message\": \"Test case successfully created.\"}\n]"
+          },
+          "llm": {
+            "model": "o3-mini",
+            "aiEngine": "AzureOpenAI",
+            "temperature": 0.10000000149011612,
+            "maxToken": 100000,
+            "topP": 0.0,
+            "llmDeploymentName": "o3-mini",
+            "apiKey": "####################################################################################",
+            "azureEndpoint": "https://avaplus-cognitive-account-int.openai.azure.com/",
+            "llmApiVersion": "2024-12-01-preview",
+            "bedrockModelId": null,
+            "region": null,
+            "accessKey": null,
+            "secretKey": null,
+            "vertexAIEndpoint": null,
+            "gcpProjectId": null,
+            "gcpLocation": null
+          },
+          "embedding": null,
+          "tools": [],
+          "allowCodeExecution": false,
+          "isSafeCodeExecution": true,
+          "userTools": []
+        }
+      }
+    ],
+    "langfuse": {
+      "langfuseHost": "https://avaplus-internal.avateam.io",
+      "langfusePublicKey": "##########################################",
+      "langfuseSecretKey": "##########################################"
+    },
+    "tasksOutputs": [
+      {
+        "description": "Just send the below JSON output - \n\n[\n  \"url\": \"https://www.google.com\",\n  {\"status\": 200, \"message\": \"Test case successfully created.\"},\n  {\"status\": 200, \"message\": \"Test case successfully created.\"},\n  {\"status\": 200, \"message\": \"Test case successfully created.\"},\n  {\"status\": 200, \"message\": \"Test case successfully created.\"},\n  {\"status\": 200, \"message\": \"Test case successfully created.\"}\n]",
+        "expected_output": "Just send the below JSON output - \n\n[\n  \"url\": \"https://www.google.com\",\n  {\"status\": 200, \"message\": \"Test case successfully created.\"},\n  {\"status\": 200, \"message\": \"Test case successfully created.\"},\n  {\"status\": 200, \"message\": \"Test case successfully created.\"},\n  {\"status\": 200, \"message\": \"Test case successfully created.\"},\n  {\"status\": 200, \"message\": \"Test case successfully created.\"}\n]",
+        "summary": "Just send the below JSON output - \n\n[\n  \"url\":...",
+        "raw": "[\n  \"url\": \"https://www.google.com\",\n  {\"status\": 200, \"message\": \"Test case successfully created.\"},\n  {\"status\": 200, \"message\": \"Test case successfully created.\"},\n  {\"status\": 200, \"message\": \"Test case successfully created.\"},\n  {\"status\": 200, \"message\": \"Test case successfully created.\"},\n  {\"status\": 200, \"message\": \"Test case successfully created.\"}\n]"
+      }
+    ],
+    "output": "[\n  \"url\": \"https://www.google.com\",\n  {\"status\": 200, \"message\": \"Test case successfully created.\"},\n  {\"status\": 200, \"message\": \"Test case successfully created.\"},\n  {\"status\": 200, \"message\": \"Test case successfully created.\"},\n  {\"status\": 200, \"message\": \"Test case successfully created.\"},\n  {\"status\": 200, \"message\": \"Test case successfully created.\"}\n]",
+    "enableAgenticMemory": false
+  }
+}

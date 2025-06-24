@@ -1,0 +1,227 @@
+2025-06-24T03:13:14.120+05:30  WARN 14072 --- [AgenFlowmind] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h31m39s130ms863µs900ns).
+2025-06-24T10:06:06.710+05:30  WARN 14072 --- [AgenFlowmind] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6h52m58s716ms797µs500ns).
+2025-06-24T10:07:58.105+05:30  WARN 14072 --- [AgenFlowmind] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51s390ms653µs900ns).
+2025-06-24T10:25:34.722+05:30  WARN 14072 --- [AgenFlowmind] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m36s615ms933µs200ns).
+2025-06-24T10:26:54.585+05:30  INFO 14072 --- [AgenFlowmind] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-06-24T10:26:54.588+05:30  INFO 14072 --- [AgenFlowmind] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-24T10:26:54.912+05:30  INFO 14072 --- [AgenFlowmind] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-24T10:26:54.941+05:30  INFO 14072 --- [AgenFlowmind] [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2025-06-24T10:26:54.941+05:30  INFO 14072 --- [AgenFlowmind] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-06-24T10:26:54.941+05:30  INFO 14072 --- [AgenFlowmind] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-06-24T10:26:54.941+05:30  INFO 14072 --- [AgenFlowmind] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-06-24T10:26:54.942+05:30  INFO 14072 --- [AgenFlowmind] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-24T10:26:54.946+05:30  INFO 14072 --- [AgenFlowmind] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-24T10:26:54.954+05:30  INFO 14072 --- [AgenFlowmind] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-06-24T18:38:30.497+05:30  INFO 20968 --- [AgenFlowmind] [main] c.a.a.AgenFlowmindApplication            : Starting AgenFlowmindApplication using Java 21.0.6 with PID 20968 (C:\Users\jayanth.yadavalli\Downloads\HP-TIO-Odyssey 1\HP-TIO-Odyssey\target\classes started by jayanth.yadavalli in C:\Users\jayanth.yadavalli\Downloads\HP-TIO-Odyssey 1\HP-TIO-Odyssey)
+2025-06-24T18:38:30.516+05:30  INFO 20968 --- [AgenFlowmind] [main] c.a.a.AgenFlowmindApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-06-24T18:38:33.357+05:30  INFO 20968 --- [AgenFlowmind] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-24T18:38:33.932+05:30  INFO 20968 --- [AgenFlowmind] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 541 ms. Found 12 JPA repository interfaces.
+2025-06-24T18:38:36.281+05:30  INFO 20968 --- [AgenFlowmind] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-24T18:38:36.337+05:30  INFO 20968 --- [AgenFlowmind] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-24T18:38:36.338+05:30  INFO 20968 --- [AgenFlowmind] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-06-24T18:38:36.619+05:30  INFO 20968 --- [AgenFlowmind] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-24T18:38:36.621+05:30  INFO 20968 --- [AgenFlowmind] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5897 ms
+2025-06-24T18:38:37.035+05:30  INFO 20968 --- [AgenFlowmind] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-24T18:38:38.666+05:30  INFO 20968 --- [AgenFlowmind] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5dd6a4c8
+2025-06-24T18:38:38.670+05:30  INFO 20968 --- [AgenFlowmind] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-24T18:38:41.897+05:30  INFO 20968 --- [AgenFlowmind] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-24T18:38:42.151+05:30  INFO 20968 --- [AgenFlowmind] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-06-24T18:38:42.335+05:30  INFO 20968 --- [AgenFlowmind] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-06-24T18:38:43.285+05:30  INFO 20968 --- [AgenFlowmind] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-24T18:38:43.488+05:30  WARN 20968 --- [AgenFlowmind] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-06-24T18:38:43.490+05:30  WARN 20968 --- [AgenFlowmind] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-06-24T18:38:43.518+05:30  INFO 20968 --- [AgenFlowmind] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-24T18:38:45.908+05:30  INFO 20968 --- [AgenFlowmind] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-24T18:38:48.026+05:30  INFO 20968 --- [AgenFlowmind] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-24T18:38:49.468+05:30  INFO 20968 --- [AgenFlowmind] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-06-24T18:38:52.614+05:30  INFO 20968 --- [AgenFlowmind] [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2025-06-24T18:38:52.795+05:30  INFO 20968 --- [AgenFlowmind] [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-06-24T18:38:52.796+05:30  INFO 20968 --- [AgenFlowmind] [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2025-06-24T18:38:52.807+05:30  INFO 20968 --- [AgenFlowmind] [main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2025-06-24T18:38:52.814+05:30  INFO 20968 --- [AgenFlowmind] [main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2025-06-24T18:38:52.817+05:30  INFO 20968 --- [AgenFlowmind] [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2025-06-24T18:38:52.818+05:30  INFO 20968 --- [AgenFlowmind] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-06-24T18:38:52.819+05:30  INFO 20968 --- [AgenFlowmind] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2025-06-24T18:38:52.820+05:30  INFO 20968 --- [AgenFlowmind] [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5341eab4
+2025-06-24T18:38:54.087+05:30  WARN 20968 --- [AgenFlowmind] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-24T18:38:54.213+05:30  INFO 20968 --- [AgenFlowmind] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-06-24T18:38:55.640+05:30  WARN 20968 --- [AgenFlowmind] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-06-24T18:38:55.641+05:30  INFO 20968 --- [AgenFlowmind] [main] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2025-06-24T18:38:55.642+05:30  INFO 20968 --- [AgenFlowmind] [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-06-24T18:38:55.642+05:30  INFO 20968 --- [AgenFlowmind] [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-06-24T18:38:55.642+05:30  INFO 20968 --- [AgenFlowmind] [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-06-24T18:38:55.643+05:30  INFO 20968 --- [AgenFlowmind] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-24T18:38:55.653+05:30  INFO 20968 --- [AgenFlowmind] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-24T18:38:55.682+05:30  INFO 20968 --- [AgenFlowmind] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-06-24T18:38:55.726+05:30  INFO 20968 --- [AgenFlowmind] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-06-24T18:38:55.857+05:30 ERROR 20968 --- [AgenFlowmind] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-06-24T18:40:14.724+05:30  INFO 21160 --- [AgenFlowmind] [main] c.a.a.AgenFlowmindApplication            : Starting AgenFlowmindApplication using Java 21.0.6 with PID 21160 (C:\Users\jayanth.yadavalli\Downloads\HP-TIO-Odyssey 1\HP-TIO-Odyssey\target\classes started by jayanth.yadavalli in C:\Users\jayanth.yadavalli\Downloads\HP-TIO-Odyssey 1\HP-TIO-Odyssey)
+2025-06-24T18:40:14.733+05:30  INFO 21160 --- [AgenFlowmind] [main] c.a.a.AgenFlowmindApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-06-24T18:40:17.491+05:30  INFO 21160 --- [AgenFlowmind] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-24T18:40:17.966+05:30  INFO 21160 --- [AgenFlowmind] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 442 ms. Found 12 JPA repository interfaces.
+2025-06-24T18:40:19.809+05:30  INFO 21160 --- [AgenFlowmind] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-24T18:40:19.846+05:30  INFO 21160 --- [AgenFlowmind] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-24T18:40:19.847+05:30  INFO 21160 --- [AgenFlowmind] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-06-24T18:40:20.084+05:30  INFO 21160 --- [AgenFlowmind] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-24T18:40:20.085+05:30  INFO 21160 --- [AgenFlowmind] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5207 ms
+2025-06-24T18:40:20.467+05:30  INFO 21160 --- [AgenFlowmind] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-24T18:40:21.553+05:30  INFO 21160 --- [AgenFlowmind] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13a268cd
+2025-06-24T18:40:21.560+05:30  INFO 21160 --- [AgenFlowmind] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-24T18:40:25.684+05:30  INFO 21160 --- [AgenFlowmind] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-24T18:40:25.932+05:30  INFO 21160 --- [AgenFlowmind] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-06-24T18:40:26.074+05:30  INFO 21160 --- [AgenFlowmind] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-06-24T18:40:27.817+05:30  INFO 21160 --- [AgenFlowmind] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-24T18:40:28.197+05:30  WARN 21160 --- [AgenFlowmind] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-06-24T18:40:28.208+05:30  WARN 21160 --- [AgenFlowmind] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-06-24T18:40:28.292+05:30  INFO 21160 --- [AgenFlowmind] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-24T18:40:34.117+05:30  INFO 21160 --- [AgenFlowmind] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-24T18:40:34.449+05:30  INFO 21160 --- [AgenFlowmind] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-24T18:40:36.150+05:30  INFO 21160 --- [AgenFlowmind] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-06-24T18:40:40.889+05:30  INFO 21160 --- [AgenFlowmind] [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2025-06-24T18:40:41.086+05:30  INFO 21160 --- [AgenFlowmind] [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-06-24T18:40:41.087+05:30  INFO 21160 --- [AgenFlowmind] [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2025-06-24T18:40:41.101+05:30  INFO 21160 --- [AgenFlowmind] [main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2025-06-24T18:40:41.112+05:30  INFO 21160 --- [AgenFlowmind] [main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2025-06-24T18:40:41.118+05:30  INFO 21160 --- [AgenFlowmind] [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2025-06-24T18:40:41.119+05:30  INFO 21160 --- [AgenFlowmind] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-06-24T18:40:41.119+05:30  INFO 21160 --- [AgenFlowmind] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2025-06-24T18:40:41.120+05:30  INFO 21160 --- [AgenFlowmind] [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@220f319a
+2025-06-24T18:40:42.827+05:30  WARN 21160 --- [AgenFlowmind] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-24T18:40:42.997+05:30  INFO 21160 --- [AgenFlowmind] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-06-24T18:40:44.789+05:30  INFO 21160 --- [AgenFlowmind] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-24T18:40:44.793+05:30  INFO 21160 --- [AgenFlowmind] [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2025-06-24T18:40:44.916+05:30  INFO 21160 --- [AgenFlowmind] [main] o.s.s.quartz.LocalDataSourceJobStore     : Freed 0 triggers from 'acquired' / 'blocked' state.
+2025-06-24T18:40:44.931+05:30  INFO 21160 --- [AgenFlowmind] [main] o.s.s.quartz.LocalDataSourceJobStore     : Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2025-06-24T18:40:44.932+05:30  INFO 21160 --- [AgenFlowmind] [main] o.s.s.quartz.LocalDataSourceJobStore     : Recovery complete.
+2025-06-24T18:40:44.937+05:30  INFO 21160 --- [AgenFlowmind] [main] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 'complete' triggers.
+2025-06-24T18:40:44.941+05:30  INFO 21160 --- [AgenFlowmind] [main] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 stale fired job entries.
+2025-06-24T18:40:44.953+05:30  INFO 21160 --- [AgenFlowmind] [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-06-24T18:40:44.979+05:30  INFO 21160 --- [AgenFlowmind] [main] c.a.a.AgenFlowmindApplication            : Started AgenFlowmindApplication in 32.202 seconds (process running for 36.733)
+2025-06-24T18:43:18.483+05:30  INFO 21160 --- [AgenFlowmind] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-24T18:43:18.484+05:30  INFO 21160 --- [AgenFlowmind] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-24T18:43:18.489+05:30  INFO 21160 --- [AgenFlowmind] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-06-24T18:45:35.677+05:30  INFO 21160 --- [AgenFlowmind] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-06-24T18:45:35.683+05:30  INFO 21160 --- [AgenFlowmind] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-24T18:45:35.757+05:30  INFO 21160 --- [AgenFlowmind] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-24T18:45:35.849+05:30  INFO 21160 --- [AgenFlowmind] [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2025-06-24T18:45:35.850+05:30  INFO 21160 --- [AgenFlowmind] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-06-24T18:45:35.850+05:30  INFO 21160 --- [AgenFlowmind] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-06-24T18:45:35.851+05:30  INFO 21160 --- [AgenFlowmind] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-06-24T18:45:35.854+05:30  INFO 21160 --- [AgenFlowmind] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-24T18:45:35.860+05:30  INFO 21160 --- [AgenFlowmind] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-24T18:45:35.923+05:30  INFO 21160 --- [AgenFlowmind] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-06-24T18:47:47.775+05:30  INFO 52336 --- [AgenFlowmind] [main] c.a.a.AgenFlowmindApplication            : Starting AgenFlowmindApplication using Java 21.0.6 with PID 52336 (C:\Users\jayanth.yadavalli\Downloads\HP-TIO-Odyssey 1\HP-TIO-Odyssey\target\classes started by jayanth.yadavalli in C:\Users\jayanth.yadavalli\Downloads\HP-TIO-Odyssey 1\HP-TIO-Odyssey)
+2025-06-24T18:47:47.793+05:30  INFO 52336 --- [AgenFlowmind] [main] c.a.a.AgenFlowmindApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-06-24T18:47:53.857+05:30  INFO 52336 --- [AgenFlowmind] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-24T18:47:55.517+05:30  INFO 52336 --- [AgenFlowmind] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1588 ms. Found 12 JPA repository interfaces.
+2025-06-24T18:48:00.785+05:30  INFO 52336 --- [AgenFlowmind] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-24T18:48:00.928+05:30  INFO 52336 --- [AgenFlowmind] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-24T18:48:00.930+05:30  INFO 52336 --- [AgenFlowmind] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-06-24T18:48:01.516+05:30  INFO 52336 --- [AgenFlowmind] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-24T18:48:01.518+05:30  INFO 52336 --- [AgenFlowmind] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 13429 ms
+2025-06-24T18:48:02.567+05:30  INFO 52336 --- [AgenFlowmind] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-24T18:48:06.155+05:30  INFO 52336 --- [AgenFlowmind] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5dd6a4c8
+2025-06-24T18:48:06.171+05:30  INFO 52336 --- [AgenFlowmind] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-24T18:48:10.799+05:30  INFO 52336 --- [AgenFlowmind] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-24T18:48:11.374+05:30  INFO 52336 --- [AgenFlowmind] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-06-24T18:48:11.674+05:30  INFO 52336 --- [AgenFlowmind] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-06-24T18:48:13.886+05:30  INFO 52336 --- [AgenFlowmind] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-24T18:48:14.407+05:30  WARN 52336 --- [AgenFlowmind] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-06-24T18:48:14.416+05:30  WARN 52336 --- [AgenFlowmind] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-06-24T18:48:14.524+05:30  INFO 52336 --- [AgenFlowmind] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-24T18:48:20.419+05:30  INFO 52336 --- [AgenFlowmind] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-24T18:48:20.971+05:30  INFO 52336 --- [AgenFlowmind] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-24T18:48:23.400+05:30  INFO 52336 --- [AgenFlowmind] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-06-24T18:48:30.007+05:30  INFO 52336 --- [AgenFlowmind] [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2025-06-24T18:48:30.231+05:30  INFO 52336 --- [AgenFlowmind] [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-06-24T18:48:30.233+05:30  INFO 52336 --- [AgenFlowmind] [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2025-06-24T18:48:30.254+05:30  INFO 52336 --- [AgenFlowmind] [main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2025-06-24T18:48:30.267+05:30  INFO 52336 --- [AgenFlowmind] [main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2025-06-24T18:48:30.272+05:30  INFO 52336 --- [AgenFlowmind] [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2025-06-24T18:48:30.273+05:30  INFO 52336 --- [AgenFlowmind] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-06-24T18:48:30.276+05:30  INFO 52336 --- [AgenFlowmind] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2025-06-24T18:48:30.277+05:30  INFO 52336 --- [AgenFlowmind] [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@7057c234
+2025-06-24T18:48:32.507+05:30  WARN 52336 --- [AgenFlowmind] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-24T18:48:32.778+05:30  INFO 52336 --- [AgenFlowmind] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-06-24T18:48:34.883+05:30  INFO 52336 --- [AgenFlowmind] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-24T18:48:34.890+05:30  INFO 52336 --- [AgenFlowmind] [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2025-06-24T18:48:35.069+05:30  INFO 52336 --- [AgenFlowmind] [main] o.s.s.quartz.LocalDataSourceJobStore     : Freed 0 triggers from 'acquired' / 'blocked' state.
+2025-06-24T18:48:35.085+05:30  INFO 52336 --- [AgenFlowmind] [main] o.s.s.quartz.LocalDataSourceJobStore     : Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2025-06-24T18:48:35.086+05:30  INFO 52336 --- [AgenFlowmind] [main] o.s.s.quartz.LocalDataSourceJobStore     : Recovery complete.
+2025-06-24T18:48:35.090+05:30  INFO 52336 --- [AgenFlowmind] [main] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 'complete' triggers.
+2025-06-24T18:48:35.097+05:30  INFO 52336 --- [AgenFlowmind] [main] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 stale fired job entries.
+2025-06-24T18:48:35.117+05:30  INFO 52336 --- [AgenFlowmind] [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-06-24T18:48:35.172+05:30  INFO 52336 --- [AgenFlowmind] [main] c.a.a.AgenFlowmindApplication            : Started AgenFlowmindApplication in 49.878 seconds (process running for 55.18)
+2025-06-24T18:50:48.425+05:30  INFO 52336 --- [AgenFlowmind] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-24T18:50:48.426+05:30  INFO 52336 --- [AgenFlowmind] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-24T18:50:48.432+05:30  INFO 52336 --- [AgenFlowmind] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2025-06-24T18:50:52.871+05:30  INFO 52336 --- [AgenFlowmind] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 3222 ms
+2025-06-24T21:09:01.769+05:30  WARN 52336 --- [AgenFlowmind] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m24s400ms652µs600ns).
+2025-06-24T21:12:18.995+05:30  WARN 52336 --- [AgenFlowmind] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s187ms11µs).
+2025-06-24T22:08:39.844+05:30  INFO 52336 --- [AgenFlowmind] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-06-24T22:08:39.975+05:30  INFO 52336 --- [AgenFlowmind] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-24T22:08:40.147+05:30  INFO 52336 --- [AgenFlowmind] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-24T22:08:40.908+05:30  INFO 52336 --- [AgenFlowmind] [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2025-06-24T22:08:40.908+05:30  INFO 52336 --- [AgenFlowmind] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-06-24T22:08:40.908+05:30  INFO 52336 --- [AgenFlowmind] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-06-24T22:08:40.910+05:30  INFO 52336 --- [AgenFlowmind] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-06-24T22:08:40.920+05:30  INFO 52336 --- [AgenFlowmind] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-24T22:08:40.974+05:30  INFO 52336 --- [AgenFlowmind] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-24T22:08:40.994+05:30  INFO 52336 --- [AgenFlowmind] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
